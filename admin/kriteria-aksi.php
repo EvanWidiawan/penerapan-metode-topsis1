@@ -4,7 +4,7 @@ if (isset($_GET['aksi'])) {
     if ($_GET['aksi']=='tambah') { ?>
         <div class="container">
             <div class="row">
-                <ul class="breadcrumb"><h4>KRITERIA/ TAMBAH DATA</h4></ul>
+                <ul class="breadcrumb"><h4><b>KRITERIA/ TAMBAH DATA</b></h4></ul>
             </div>
         </div>
 
@@ -44,7 +44,7 @@ if (isset($_GET['aksi'])) {
 
     <div class="container">
         <div class="row">
-            <ul class="breadcrumb"><h4>KRITERIA/ UBAH DATA</h4></ul>
+            <ul class="breadcrumb"><h4><b>KRITERIA/ UBAH DATA</b></h4></ul>
         </div>
     </div>
 

@@ -50,7 +50,7 @@
                 <li class="<?= ($current == 'index.php') ? 'active' : '' ?>"><a href="index.php">Home</a></li>
                 <li class="<?= ($current == 'alternatif.php') ? 'active' : '' ?>"><a href="alternatif.php">Alternatif</a></li>
                 <li class="<?= ($current == 'kriteria.php') ? 'active' : '' ?>"><a href="kriteria.php">Kriteria</a></li>
-                <li class="<?= ($current == 'nilai.php') ? 'active' : '' ?>"><a href="nilai.php">Nilai</a></li>
+                <li class="<?= ($current == 'nilai.php') ? 'active' : '' ?>"><a href="nilai.php">Nilai Alternatif</a></li>
                 <li class="<?= ($current == 'metode-topsis.php') ? 'active' : '' ?>"><a href="metode-topsis.php">Metode Topsis</a></li>
             </ul>
         </div>

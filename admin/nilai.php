@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 <div class="container">
     <div class="row"> 
-        <ol class="breadcrumb"><h4><b>NILAI</b></h4></ol>
+        <ol class="breadcrumb"><h4><b>NILAI ALTERNATIF</b></h4></ol>
     </div>
 
     <div class="panel panel-container">

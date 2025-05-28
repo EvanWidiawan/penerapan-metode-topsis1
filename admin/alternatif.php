@@ -9,7 +9,7 @@
             <a href="alternatif-aksi.php?aksi=tambah" class="btn btn-success">Tambah Data</a>
             <hr>
             <div class="table-responsive">
-                <table class="table table-bordered"> <!-- ganti 'borderer' jadi 'bordered' -->
+                <table class="table table-bordered"> 
                     <thead>
                         <tr>
                             <th class="text-center">No</th>

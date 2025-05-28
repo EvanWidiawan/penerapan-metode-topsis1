@@ -6,7 +6,7 @@ if (isset($_GET['aksi'])) {
         <div class="container">
             <div class="row">
                 <ul class="breadcrumb">
-                    <h4>NILAI / TAMBAH DATA</h4>
+                    <h4><b>NILAI / TAMBAH DATA</b></h4>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@ if (isset($_GET['aksi'])) {
 
                         echo "<div class='form-group'>";
                         echo "<label>" . $nama_kriteria . "</label>";
-                        echo "<input type='number' class='form-control' name='nilai[" . $id_kriteria . "]' placeholder='Masukkan nilai untuk " . $nama_kriteria . "' required>";
+                        echo "<input type='number' step='1' class='form-control' name='nilai[" . $id_kriteria . "]' placeholder='Masukkan nilai untuk " . $nama_kriteria . "' required>";
                         echo "</div>";
                     }
                     ?>
@@ -54,7 +54,7 @@ if (isset($_GET['aksi'])) {
         <div class="container">
             <div class="row">
                 <ul class="breadcrumb">
-                    <h4>NILAI / UBAH DATA</h4>
+                    <h4><b>NILAI / UBAH DATA</b></h4>
                 </ul>
             </div>
         </div>
@@ -93,7 +93,7 @@ if (isset($_GET['aksi'])) {
 
                         echo "<div class='form-group'>";
                         echo "<label>" . $nama_kriteria . "</label>";
-                        echo "<input type='number' class='form-control' name='nilai[" . $id_kriteria . "]' value='" . $nilai . "' placeholder='Masukkan nilai untuk " . $nama_kriteria . "' required>";
+                        echo "<input type='number' step='1' class='form-control' name='nilai[" . $id_kriteria . "]' value='" . $nilai . "' placeholder='Masukkan nilai untuk " . $nama_kriteria . "' required>";
                         echo "</div>";
                     }
                     ?>
