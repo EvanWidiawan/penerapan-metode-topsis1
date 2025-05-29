@@ -15,11 +15,11 @@
 <body>
 
 <style>
-     body {
+    body {
         padding-top: 70px;
     }
     .navbar {
-        background-color:rgb(39, 40, 42); 
+        background-color: rgb(39, 40, 42); 
     }
     .navbar a {
         color: white;
@@ -27,7 +27,6 @@
         text-decoration: none;
         transition: all 0.3s ease;
         border-radius: 5px;
-        padding: 10px;
         display: inline-block;
     }
     .navbar a:hover {
@@ -38,14 +37,23 @@
         background-color: darkgoldenrod !important;
         color: black !important;
     }
+    .navbar-brand {
+        color: white !important;
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 30px;
+    }
 </style>
 
-    <?php
-    $current = basename($_SERVER['PHP_SELF']);
-    ?>
+<?php
+$current = basename($_SERVER['PHP_SELF']);
+?>
 
 <nav class="navbar navbar-fixed-top">
     <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand">SchoolGrade</div>
+        </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="<?= ($current == 'index.php') ? 'active' : '' ?>"><a href="index.php">Home</a></li>
