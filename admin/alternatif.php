@@ -1,4 +1,8 @@
-<?php include 'header.php' ?>
+<?php 
+include 'header.php';
+include 'footer.php';
+?>
+
 <div class="container">
     <div class="row"> 
         <ol class="breadcrumb"><h4><b>ALTERNATIF</b></h4></ol>
@@ -28,7 +32,7 @@
                             <td class="text-center"><?php echo $a['nama_alternatif']; ?></td>
                             <td class="text-center">
                                 <a href="alternatif-aksi.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&aksi=ubah" class="btn btn-primary btn-rounded">Ubah</a>
-                                <a href="alternatif-proses.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&proses=hapus" class="btn btn-danger btn-rounded">Hapus</a>
+                                <a href="alternatif-proses.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&proses=hapus" class="btn btn-danger btn-rounded btn-hapus">Hapus</a>
                             </td>
                         </tr>
                         <?php

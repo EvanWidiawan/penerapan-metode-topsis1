@@ -1,5 +1,6 @@
 <?php
 include 'header.php';
+include 'footer.php';
 if (isset($_GET['aksi'])) {
     if ($_GET['aksi']=='tambah') { ?>
         <div class="container">
@@ -13,12 +14,12 @@ if (isset($_GET['aksi'])) {
                 <form action="alternatif-proses.php?proses=simpan" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>Nama Alternatif</label>
-                        <input type="text" name="nama_alternatif" class="form-control" placeholder="nama alternatif">
+                        <input type="text" name="nama_alternatif" class="form-control" placeholder="nama alternatif" required>
                     </div>
 
                     <div class="modal-footer">
                         <a href="alternatif.php" class="btn btn-primary btn-rounded">Batal</a>
-                        <input type="submit" class="btn btn-danger btn-rounded" value="SIMPAN">
+                        <input type="submit" class="btn btn-danger btn-rounded" placeholder="required" value="SIMPAN">
                     </div>
                 </form>
             </div>
@@ -38,7 +39,7 @@ if (isset($_GET['aksi'])) {
             $data = mysqli_query($conn, "SELECT * FROM tbl_alternatif WHERE id_alternatif='" . $_GET['id_alternatif'] . "'");
             while ($a = mysqli_fetch_array($data)) { ?>
                 <form action="alternatif-proses.php?proses=ubah" method="post" enctype="multipart/form-data">
-                    <input type="hidden" name="alternatif" value="<?php echo $a['id_alternatif']; ?>">
+                    <input type="hidden" name="alternatif" value="<?php echo $a['id_alternatif']; ?>" required>
                     <div class="form-group">
                         <label>Nama Alternatif</label>
                         <input type="text" name="nama_alternatif" class="form-control" placeholder="nama alternatif" value="<?php echo $a['nama_alternatif']; ?>">
@@ -46,7 +47,7 @@ if (isset($_GET['aksi'])) {
 
                     <div class="modal-footer">
                         <a href="alternatif.php" class="btn btn-primary btn-rounded">Batal</a>
-                        <input type="submit" class="btn btn-danger btn-rounded" value="UBAH">
+                        <input type="submit" class="btn btn-danger btn-rounded btn-ubah" value="UBAH">
                     </div>
                 </form>
             <?php } ?>

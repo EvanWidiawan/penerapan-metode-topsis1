@@ -1,5 +1,6 @@
 <?php
 include 'header.php';
+include 'footer.php';
 if (isset($_GET['aksi'])) {
     if ($_GET['aksi']=='tambah') { ?>
         <div class="container">
@@ -13,12 +14,12 @@ if (isset($_GET['aksi'])) {
                 <form action="kriteria-proses.php?proses=simpan" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>Nama Kriteria</label>
-                        <input type="text" name="nama_kriteria" class="form-control" placeholder="nama kriteria">
+                        <input type="text" name="nama_kriteria" class="form-control" placeholder="nama kriteria" required>
                     </div>
 
                     <div class="form-group">
                         <label>Bobot Kriteria</label>
-                        <input type="text" name="bobot_kriteria" class="form-control" placeholder="bobot kriteria">
+                        <input type="text" name="bobot_kriteria" class="form-control" placeholder="bobot kriteria" required>
                     </div>
 
                     <div class="form-group">
@@ -78,7 +79,7 @@ if (isset($_GET['aksi'])) {
 
                     <div class="modal-footer">
                         <a href="kriteria.php" class="btn btn-primary btn-rounded">Batal</a>
-                        <input type="submit" class="btn btn-danger btn-rounded" value="UBAH">
+                        <input type="submit" class="btn btn-danger btn-rounded btn-ubah btn-ubah" value="UBAH">
                     </div>
                 </form>
             <?php } ?>

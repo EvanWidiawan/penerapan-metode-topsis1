@@ -1,4 +1,7 @@
-<?php include 'header.php' ?>
+<?php  
+    include 'header.php';
+    include 'footer.php';
+?>
 <div class="container">
     <div class="row"> 
         <ol class="breadcrumb"><h4><b>KRITERIA</b></h4></ol>
@@ -33,7 +36,7 @@
 
                             <td class="text-center">
                                 <a href="kriteria-aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah" class="btn btn-primary btn-rounded">Ubah</a>
-                                <a href="kriteria-proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=hapus" class="btn btn-danger btn-rounded">Hapus</a>
+                                <a href="kriteria-proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=hapus" class="btn btn-danger btn-rounded btn-hapus">Hapus</a>
                             </td>
                         </tr>
                         <?php

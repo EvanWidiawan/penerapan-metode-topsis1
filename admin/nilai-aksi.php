@@ -1,5 +1,6 @@
 <?php
 include 'header.php';
+include 'footer.php';
 if (isset($_GET['aksi'])) {
     if ($_GET['aksi'] == 'tambah') { ?>
 
@@ -100,7 +101,7 @@ if (isset($_GET['aksi'])) {
 
                     <div class="modal-footer">
                         <a href="nilai.php" class="btn btn-primary btn-rounded">Batal</a>
-                        <input type="submit" class="btn btn-danger btn-rounded" value="UBAH">
+                        <input type="submit" class="btn btn-danger btn-rounded btn-ubah" value="UBAH">
                     </div>
                 </form>
             </div>
