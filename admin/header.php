@@ -52,7 +52,7 @@ $current = basename($_SERVER['PHP_SELF']);
 <nav class="navbar navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <div class="navbar-brand">SchoolGrade</div>
+            <div class="navbar-brand">SchoolBest</div>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
