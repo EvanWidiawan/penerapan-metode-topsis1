@@ -6,7 +6,7 @@
 
     <div class="panel panel-container">
         <div class="bootstrap-table">
-            <a href="kriteria-aksi.php?aksi=tambah" class="btn btn-success">Tambah Data</a>
+            <a href="kriteria-aksi.php?aksi=tambah" class="btn btn-success btn-rounded">Tambah Data</a>
             <hr>
             <div class="table-responsive">
                 <table class="table table-bordered"> <!-- ganti 'borderer' jadi 'bordered' -->
@@ -32,8 +32,8 @@
                             <td class="text-center"><?php echo $a['jenis_kriteria']; ?></td>
 
                             <td class="text-center">
-                                <a href="kriteria-aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah" class="btn btn-primary">Ubah</a>
-                                <a href="kriteria-proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=hapus" class="btn btn-danger">Hapus</a>
+                                <a href="kriteria-aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah" class="btn btn-primary btn-rounded">Ubah</a>
+                                <a href="kriteria-proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=hapus" class="btn btn-danger btn-rounded">Hapus</a>
                             </td>
                         </tr>
                         <?php

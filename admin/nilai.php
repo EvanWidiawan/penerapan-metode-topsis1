@@ -6,7 +6,7 @@
 
     <div class="panel panel-container">
         <div class="bootstrap-table">
-            <a href="nilai-aksi.php?aksi=tambah" class="btn btn-success">Tambah Data</a>
+            <a href="nilai-aksi.php?aksi=tambah" class="btn btn-success btn-rounded">Tambah Data</a>
             <hr>
             <div class="table-responsive">
                 <table class="table table-bordered"> <!-- ganti 'borderer' jadi 'bordered' -->
@@ -52,8 +52,8 @@
                             ?>
 
                             <td class="text-center">
-                                <a href="nilai-aksi.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&aksi=ubah" class="btn btn-primary">Ubah</a>
-                                <a href="nilai-proses.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&proses=hapus" class="btn btn-danger">Hapus</a>
+                                <a href="nilai-aksi.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&aksi=ubah" class="btn btn-primary btn-rounded">Ubah</a>
+                                <a href="nilai-proses.php?id_alternatif=<?php echo $a['id_alternatif']; ?>&proses=hapus" class="btn btn-danger btn-rounded">Hapus</a>
                             </td>
                         </tr>
                         <?php

@@ -17,8 +17,8 @@ if (isset($_GET['aksi'])) {
                     </div>
 
                     <div class="modal-footer">
-                        <a href="alternatif.php" class="btn btn-primary">Batal</a>
-                        <input type="submit" class="btn btn-danger" value="SIMPAN">
+                        <a href="alternatif.php" class="btn btn-primary btn-rounded">Batal</a>
+                        <input type="submit" class="btn btn-danger btn-rounded" value="SIMPAN">
                     </div>
                 </form>
             </div>
@@ -45,8 +45,8 @@ if (isset($_GET['aksi'])) {
                     </div>
 
                     <div class="modal-footer">
-                        <a href="alternatif.php" class="btn btn-primary">Batal</a>
-                        <input type="submit" class="btn btn-danger" value="UBAH">
+                        <a href="alternatif.php" class="btn btn-primary btn-rounded">Batal</a>
+                        <input type="submit" class="btn btn-danger btn-rounded" value="UBAH">
                     </div>
                 </form>
             <?php } ?>

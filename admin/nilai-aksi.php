@@ -6,7 +6,7 @@ if (isset($_GET['aksi'])) {
         <div class="container">
             <div class="row">
                 <ul class="breadcrumb">
-                    <h4><b>NILAI / TAMBAH DATA</b></h4>
+                    <h4><b>NILAI ALTERNATIF/ TAMBAH DATA</b></h4>
                 </ul>
             </div>
         </div>
@@ -42,8 +42,8 @@ if (isset($_GET['aksi'])) {
                     ?>
 
                     <div class="modal-footer">
-                        <a href="nilai.php" class="btn btn-primary">Batal</a>
-                        <input type="submit" class="btn btn-danger" value="SIMPAN">
+                        <a href="nilai.php" class="btn btn-primary btn-rounded">Batal</a>
+                        <input type="submit" class="btn btn-danger btn-rounded" value="SIMPAN">
                     </div>
                 </form>
             </div>
@@ -54,7 +54,7 @@ if (isset($_GET['aksi'])) {
         <div class="container">
             <div class="row">
                 <ul class="breadcrumb">
-                    <h4><b>NILAI / UBAH DATA</b></h4>
+                    <h4><b>NILAI ALTERNATIF/ UBAH DATA</b></h4>
                 </ul>
             </div>
         </div>
@@ -99,8 +99,8 @@ if (isset($_GET['aksi'])) {
                     ?>
 
                     <div class="modal-footer">
-                        <a href="nilai.php" class="btn btn-primary">Batal</a>
-                        <input type="submit" class="btn btn-danger" value="UBAH">
+                        <a href="nilai.php" class="btn btn-primary btn-rounded">Batal</a>
+                        <input type="submit" class="btn btn-danger btn-rounded" value="UBAH">
                     </div>
                 </form>
             </div>
